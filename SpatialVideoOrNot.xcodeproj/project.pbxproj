@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		402E482D2C0C79810058CAE6 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 402E482C2C0C79810058CAE6 /* RealityKitContent */; };
 		402E482F2C0C79810058CAE6 /* SpatialVideoOrNotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E482E2C0C79810058CAE6 /* SpatialVideoOrNotApp.swift */; };
 		402E48312C0C79810058CAE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E48302C0C79810058CAE6 /* ContentView.swift */; };
-		402E48332C0C79810058CAE6 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E48322C0C79810058CAE6 /* ImmersiveView.swift */; };
 		402E48352C0C79820058CAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402E48342C0C79820058CAE6 /* Assets.xcassets */; };
 		402E48382C0C79820058CAE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402E48372C0C79820058CAE6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		402E48272C0C79810058CAE6 /* SpatialVideoOrNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialVideoOrNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		402E482B2C0C79810058CAE6 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		402E482E2C0C79810058CAE6 /* SpatialVideoOrNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoOrNotApp.swift; sourceTree = "<group>"; };
 		402E48302C0C79810058CAE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		402E48322C0C79810058CAE6 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		402E48342C0C79820058CAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402E48372C0C79820058CAE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		402E48392C0C79820058CAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402E482D2C0C79810058CAE6 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +55,6 @@
 			children = (
 				402E482E2C0C79810058CAE6 /* SpatialVideoOrNotApp.swift */,
 				402E48302C0C79810058CAE6 /* ContentView.swift */,
-				402E48322C0C79810058CAE6 /* ImmersiveView.swift */,
 				402E48342C0C79820058CAE6 /* Assets.xcassets */,
 				402E48392C0C79820058CAE6 /* Info.plist */,
 				402E48362C0C79820058CAE6 /* Preview Content */,
@@ -71,7 +65,6 @@
 		402E482A2C0C79810058CAE6 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				402E482B2C0C79810058CAE6 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -101,7 +94,6 @@
 			);
 			name = SpatialVideoOrNot;
 			packageProductDependencies = (
-				402E482C2C0C79810058CAE6 /* RealityKitContent */,
 			);
 			productName = SpatialVideoOrNot;
 			productReference = 402E48272C0C79810058CAE6 /* SpatialVideoOrNot.app */;
@@ -159,7 +151,6 @@
 			files = (
 				402E48312C0C79810058CAE6 /* ContentView.swift in Sources */,
 				402E482F2C0C79810058CAE6 /* SpatialVideoOrNotApp.swift in Sources */,
-				402E48332C0C79810058CAE6 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +350,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		402E482C2C0C79810058CAE6 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 402E481F2C0C79810058CAE6 /* Project object */;
 }
